@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2016 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="map-locater" unicode="&#xe801;" d="M354 154l156 156c43 41 70 99 70 163 0 125-101 225-226 225-125 0-225-100-225-225 0-64 26-122 69-163l156-156z m0 358c22 0 39-18 39-40 0-21-17-39-39-39s-39 18-39 39c0 22 18 40 39 40z" horiz-adv-x="707" />
+</font>
+</defs>
+</svg>

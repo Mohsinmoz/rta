@@ -1,0 +1,48 @@
+
+.main-wrapper {
+    direction: rtl;
+}
+
+.slider-content {
+    float: right !important;
+    text-align: right;
+    padding-right:0;
+}
+
+.slider-content span {
+    left: auto !important;
+    right: 0 !important;
+}
+
+.footernav ul li {
+    text-align: right;
+}
+
+.footer-copyright .bottom-text {
+    float: right;
+    text-align: right;
+}
+
+.social-midea {
+    float: right !important;
+}
+
+.footer-copyright p img {
+    text-align: right !important;
+    margin: 0 20px !important;
+    float: right !important;
+}
+
+.footer-copyright .col-lg-4 {
+    margin-left: 50px;
+}
+
+.footer-copyright .col-lg-8 {
+    margin-right: -80px;
+    width: 62%;
+}
+
+.footer-copyright .bottom-text{
+    margin-bottom: 100px;
+}
+

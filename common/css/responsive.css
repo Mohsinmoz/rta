@@ -1,0 +1,270 @@
+@media screen and (min-width: 768px) and (max-width: 1266px){
+    .smart-app .swiper-button-prev, .smart-app .swiper-button-next{
+        top: 12px;
+    }
+    .smart-app .swiper-button-next, .smart-app .swiper-container-rtl .swiper-button-prev {
+        right: 10px;
+    }
+    .smart-app .swiper-button-prev, .smart-app .swiper-container-rtl .swiper-button-next {
+        left: auto;
+        right: 60px;
+    }
+}
+
+@media screen and  (max-width: 1199px){
+    .categories-list .col-grid25{
+        width: 31%;
+    }
+    .categories-list .col-grid25 .category-item img {
+        width: 40px;
+    }
+
+    .car-services li em{
+        width: 24%;
+    }
+
+    .car-services li em img{
+        width: 100%;
+    }
+
+    .car-services li{
+        font-size: 12px;
+    }
+
+    .smart-app .swiper-wrapper .swiper-slide img {
+        width: 25%;
+    }
+
+    .smart-app .swiper-wrapper .swiper-slide h3{
+        font-size: 24px;
+    }
+
+    .smart-app .swiper-wrapper .swiper-slide .slide-text {
+        float: left;
+        width: 63%;
+    }
+}
+
+@media screen and  (max-width: 990px){
+    .categories-list .col-grid25:nth-of-type(3n+3) {
+        margin-right: 20px;
+    }
+    .categories-list .col-grid25:nth-of-type(2n+2) {
+        margin-right: 0;
+    }
+    .categories-list .col-grid25 {
+        width: 48%;
+    }
+
+    .car-services li em{
+        width: 24%;
+    }
+
+    .car-services li em img{
+        width: 100%;
+    }
+
+    .car-services li{
+        font-size: 12px;
+    }
+
+    .drive-n-car-service .car-service-content ul {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .drive-n-car-service .car-service-content ul li {
+        clear: none;
+        margin: 0 10px 10px 0;
+    }
+
+    .drive-n-car-service .car-service-text{
+        float: left;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 767px){
+    .categories-list .col-grid25:nth-of-type(3n+3) {
+        margin-right: 0;
+    }
+    .categories-list .col-grid25:nth-of-type(2n+2) {
+        margin-right: 0;
+    }
+    .categories-list .col-grid25 {
+        width: 100%;
+    }
+
+    .left-menu {
+        max-width: 100% !important;
+        margin-bottom: 25px;
+    }
+
+    .breadcrumb-rta {
+        margin: 20px 0 25px;
+    }
+
+    .our-services .most-popular h2{
+        font-size: 24px;
+    }
+
+    .categories-list .col-grid25 .category-item h4 {
+        width: 73%;
+    }
+    .by-categories ul li {
+        padding: 0 15px 0 0;
+        font-size: 14px;
+    }
+    .categories-list .row {
+        padding: 30px 0 20px;
+    }
+    .by-alph ul li {
+        display: inline-block;
+        margin: 0 30px 10px 0;
+    }
+
+    .drive-n-car h2, .smart-app h2{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .car-services {
+        margin: 0 0 20px;
+    }
+    .car-services li {
+        display: inline-block;
+        width: 50%;
+        min-height: 71px;
+    }
+
+    .drive-n-car-service .img-outer {
+        position: static;
+        width: 100%;
+    }
+
+    .drive-n-car-service .img-title {
+        position: static;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .drive-n-car-service .car-service-content{
+        padding: 15px;
+    }
+
+    .car-services li em {
+        width: auto;
+    }
+
+    .drive-n-car-service {
+        margin: 0 0 20px;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        display: none;
+    }
+
+    .smart-app{
+        padding: 20px 0;
+    }
+
+    .smart-app .swiper-wrapper .swiper-slide .slide-text {
+        float: left;
+        width: 71%;
+    }
+    .smart-app .swiper-wrapper .swiper-slide img {
+        width: 25%;
+    }
+
+    .section-defaults {
+        padding: 20px 0;
+    }
+
+    .sm-block-box{
+        display: none;
+    }
+
+    .half-grid-list .col-grid{
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+
+    .half-grid-list{
+        margin: 0;
+    }
+
+    ol.large-number-list li{
+        font-size: 33px;
+    }
+
+    .section-defaults h2{
+        font-size: 25px;
+    }
+
+    .custom-panel .panel-heading{
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .custom-panel .panel-heading{
+        padding: 20px 34px 20px 0;
+    }
+
+    .like-unlike-box{
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .section-defaults h2{
+        margin: 20px 0 10px;
+    }
+
+    .like-unlike-box .thank-msg{
+        top: 27px;
+    }
+
+    .icon-label{
+        bottom: auto;
+        top: 49px;
+        left: 0 !important;
+    }
+
+    .drive-n-car-service .img-title p{
+        font-size: 14px;
+    }
+
+    .icon-label{
+        width: 90px;
+        height: 86px;
+    }
+    .icon-label p {
+        font: normal 12px 'RTA';
+    }
+
+    .smart-app .swiper-wrapper .swiper-slide h3 {
+        font-size: 18px;
+    }
+
+    .smart-app .swiper-wrapper .swiper-slide{
+        min-height: 165px;
+    }
+
+    .smart-app .swiper-wrapper .swiper-slide p{
+        font-size: 12px;
+        width: 155px;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    .icon-label{
+        top: 43px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .icon-label{
+        top: 27px;
+    }
+}

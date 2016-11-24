@@ -1,0 +1,743 @@
+/* waqas */
+.btn-view-all {
+    display: inline-block;
+    background: #ee0000;
+    padding: 7px 10px 2px;
+    color: #fff;
+    margin: 25px 0;
+    font: bold 18px 'RTA';
+}
+.btn-view-all:hover {
+    color: #fff;
+    background: #9b9b9d;
+}
+
+.breadcrumb-rta{
+   float: left;
+    width: 100%;
+    border-bottom: 1px solid #ebeaea;
+    padding: 0 0 20px;
+    margin: 20px 0 90px;
+}
+
+.breadcrumb-rta li{
+    position: relative;
+    float: left;
+    font: normal 14px 'RTA';
+    color: #53565a;
+    padding: 0 13px 0 0;
+    margin: 0 6px 0 0;
+}
+
+.breadcrumb-rta li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.breadcrumb-rta li a:hover{
+    color: #ee0000;
+}
+
+
+.breadcrumb-rta li:after{
+    content: "";
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    width: 1px;
+    height: 12px;
+    background: #53565a;
+    transform: rotate(30deg);
+}
+
+.breadcrumb-rta li:last-child{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.breadcrumb-rta li:last-child a{
+    cursor: default;
+}
+.breadcrumb-rta li:last-child a:hover{
+    color: #53565a;
+}
+
+.breadcrumb-rta li:last-child:after{
+    display: none;
+}
+
+.our-services{
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.our-services .most-popular{
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.our-services .most-popular h2{
+    display: block;
+    font: bold 46px 'RTA';
+    color: #53565a;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+.our-services .most-popular h3{
+    display: block;
+    font: bold 30px 'RTA';
+    color: #53565a;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+.our-services .most-popular fieldset{
+    display: block;
+    width: 100%;
+    background: #f2f2f2;
+    padding: 18px 0;
+    margin: 0 0 55px 0;
+}
+
+.our-services .most-popular fieldset input[type=search]{
+    display: block;
+    width: 95%;
+    font: normal 20px 'RTA';
+    color: #53565a;
+    border: none;
+    border-left: 1px solid #626468;
+    outline: none;
+    background: transparent url("../img/search-red.png") no-repeat right center;
+    padding: 5px 0 5px 22px;
+    margin: 0 auto;
+}
+.our-services .most-popular fieldset input[type=search]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #53565a;
+}
+.our-services .most-popular fieldset input[type=search]::-moz-placeholder { /* Firefox 19+ */
+    color: #53565a;
+}
+.our-services .most-popular fieldset input[type=search]:-ms-input-placeholder { /* IE 10+ */
+    color: #53565a;
+}
+.our-services .most-popular fieldset input[type=search]:-moz-placeholder { /* Firefox 18- */
+    color: #53565a;
+}
+
+.categories-list {
+    padding: 0;
+}
+
+.categories-list .col-grid25 {
+    display: table;
+    width: 31.8%;
+    float: left;
+    margin:0 20px 20px 0;
+}
+
+.categories-list .col-grid25:nth-of-type(3n+3){
+    margin-right: 0;
+}
+
+.categories-list .col-grid25 .category-item {
+    display: table-cell;
+    /*    border: 10px solid;*/
+    background: #989a9c;
+    width: 100%;
+    vertical-align: middle;
+    padding: 20px 20px;
+    overflow: hidden;
+    color: #fff;
+    margin:0;
+    max-width: 50%;
+}
+
+.categories-list .col-grid25 .category-item.red-hover:hover {
+    background: #ee0000;
+}
+.categories-list .col-grid25 .category-item.blue-hover:hover {
+    background: #171c8f;
+}
+
+.categories-list .col-grid25 .category-item h4 {
+    float: left;
+    color: inherit;
+    font: normal 20px 'RTA';
+    width: 65%;
+    display: inline-block;
+}
+
+.categories-list .col-grid25 .category-item img {
+    float: right;
+}
+
+.custom-select-dropdown {
+    position: relative;
+    cursor: pointer;
+    background-color: #53565a;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    color: #fff;
+    display: inline-block;
+    font: normal 20px 'RTA';
+    max-width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.custom-select-dropdown:after {
+    background: #53565a url("../img/icon-select-dropdown-white.png") no-repeat center right;
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    content: " ";
+    pointer-events: none;
+}
+
+.custom-select-dropdown select {
+    background: transparent;
+    font-family: inherit;
+    padding: 0 60px 0 10px;
+    line-height: 140%;
+    border: 0;
+    border-radius: 0;
+    height: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    cursor: pointer;
+    color: inherit;
+    font-size: inherit;
+    width: 100%;
+}
+
+.custom-select-dropdown option {
+    background: #53565a;
+    border: none;
+    line-height: 20px;
+}
+
+.left-menu{
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.left-menu ul{
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.left-menu ul li{
+    display: block;
+    width: 100%;
+    color: #53565a;
+    font: bold 16px 'RTA';
+    border-bottom: 1px solid #f1f1f1;
+    padding: 0 0 15px;
+    margin: 0 0 15px 0;
+}
+.left-menu ul li strong{
+    float: left;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+.left-menu ul li:last-child{
+    margin-bottom: 0;
+    border: none;
+}
+
+.left-menu ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.left-menu ul li a:hover{
+    color: #ee0000;
+}
+
+.left-menu ul li a.active{
+    color: #ee0000;
+}
+
+.left-menu ul li.edit{
+    background: url("../img/edit-icon.jpg") no-repeat right top;
+}
+
+.left-menu ul li.check{
+    background: url("../img/check-icon.png") no-repeat right top;
+}
+.left-menu ul li.check a:hover{
+    color: #53565a;
+    cursor: default;
+}
+
+.categories-list .row{
+    border-top: 1px solid #f1f1f1;
+    padding: 60px 0 20px;
+    margin: 0;
+}
+
+.by-categories{
+    display: block;
+    padding: 0;
+    margin: 0 0 30px;
+}
+.by-categories ul{
+    display: table;
+}
+.by-categories ul li{
+    display: table-cell;
+    font: bold 20px 'RTA';
+    color: #53565a;
+    vertical-align: middle;
+    padding: 0 70px 0 0;
+    margin: 0;
+}
+
+.by-categories ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.by-categories ul li a:hover{
+    text-decoration: none;
+    color: #ee0000;
+}
+
+.by-categories ul li a.active{
+    text-decoration: none;
+    color: #ee0000;
+}
+
+.by-alph{
+    display: inline-block;
+    padding: 0;
+    margin: 0 0 30px;
+    width: 100%;
+}
+.by-alph ul{
+    display: table;
+
+}
+.by-alph ul li{
+    display: table-cell;
+    font: bold 16px 'RTA';
+    width: 3.8%;
+    text-transform: uppercase;
+    color: #53565a;
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.by-alph ul li:last-child{
+    padding: 0;
+}
+
+.by-alph ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.by-alph ul li a:hover{
+    text-decoration: none;
+    color: #ee0000;
+}
+
+.by-alph ul li a.active{
+    text-decoration: none;
+    color: #ee0000;
+}
+
+.drive-n-car{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.drive-n-car h2 {
+    display: block;
+    font: bold 46px 'RTA';
+    color: #53565a;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+.car-services{
+    display: table;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 79px;
+}
+
+.car-services li{
+    position: relative;
+    display: table-cell;
+    font: bold 16px 'RTA';
+    width: 14.2%;
+    color: #fff;
+    vertical-align: middle;
+    border: 1px solid #fff;
+    background: #53565a;
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+.car-services li:hover{
+    background: #cfd1d1;
+}
+
+.car-services li em{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -40%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.car-services li em img:nth-of-type(2){
+    display: none;
+}
+
+.car-services li:hover em img:nth-of-type(1){
+    display: none;
+}
+
+.car-services li:hover em img:nth-of-type(2){
+    display: block;
+}
+
+.car-services li span{
+    width: 48%;
+    display: inline-block;
+}
+
+.car-services li a{
+    width: 100%;
+    display: inline-block;
+    color: inherit;
+    padding: 10px 15px;
+}
+.car-services li a:hover{
+    color: #53565a;
+}
+
+.drive-n-car-service{
+    display: block;
+
+    padding: 0;
+    margin: 0 0 90px;
+}
+
+.drive-n-car-service em{
+    display: block;
+    position: relative;
+}
+
+.drive-n-car-service em img{
+    width: 100%;
+}
+
+.drive-n-car-service .img-outer{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 43%;
+    height: 100%;
+    min-height: 100%;
+}
+
+.drive-n-car-service .img-title{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 312px;
+    padding: 35px;
+    box-sizing: border-box;
+    background: #ff7100;
+}
+
+.drive-n-car-service .img-title h2{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.drive-n-car-service .img-title p{
+    font: normal 20px 'RTA';
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.drive-n-car-service .car-service-content {
+    display: inline-block;
+    width: 100%;
+    background: #f6f6f7;
+    padding: 35px;
+    margin: 0;
+}
+
+.drive-n-car-service .car-service-content ul{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.drive-n-car-service .car-service-content ul li{
+    float: left;
+    clear: left;
+    width: 100%;
+    font: bold 18px 'RTA';
+    color: #fff;
+    padding: 5px 10px 0 27px;
+    background: #ee0000 url("../img/arrow-white.png") no-repeat 10px 7px;
+    margin: 0 0 10px;
+}
+
+.drive-n-car-service .car-service-content ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.drive-n-car-service .car-service-content ul li:hover{
+    background-color: #9b9b9d;
+}
+
+.drive-n-car-service .car-service-text{
+    float: right;
+    width: 55%;
+    padding: 0;
+    margin: 0;
+}
+
+.drive-n-car-service .car-service-text h3{
+    font: bold 30px 'RTA';
+    color: #53565a;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.drive-n-car-service .car-service-text p{
+    position: relative;
+    font: normal 13px 'RTA';
+    color: #53565a;
+    padding: 0 0 0 0;
+    margin: 0 0 15px;
+}
+
+.drive-n-car-service .car-service-text .accordion h4 {
+    position: relative;
+    font: bold 16px/16px 'RTA';
+    color: #53565a;
+    padding: 20px 42px 20px 0;
+    position: relative;
+    cursor: pointer;
+    border-bottom: 1px solid #ebeaea;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.drive-n-car-service .car-service-text .accordion h4:first-child {
+    border-top: 1px solid #ebeaea;
+}
+
+.drive-n-car-service .car-service-text .accordion h4 span{
+    display: none;
+}
+
+.drive-n-car-service .car-service-text .accordion  .ui-widget-content{
+    border: none;
+    background: none;
+    color: inherit;
+    border-bottom: 1px solid #ebeaea;
+}
+
+.drive-n-car-service .car-service-text .accordion .ui-state-active{
+    border-bottom: 1px solid transparent;
+}
+.drive-n-car-service .car-service-text .accordion .ui-state-hover, .drive-n-car-service .car-service-text .accordion .ui-state-focus{
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.drive-n-car-service .car-service-text .accordion h4:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    width: 19px;
+    height: 19px;
+    background: url("../img/faq-icon.png") no-repeat 0 0;
+}
+
+.drive-n-car-service .car-service-text .accordion h4.ui-state-active:after {
+    background-position: 0 -25px;
+}
+
+.drive-n-car-service .car-service-text .custom-panel .panel-heading{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.drive-n-car-service .car-service-text .custom-panel .panel-body {
+    padding: 0;
+}
+
+.drive-n-car-service .car-service-text .btn-view-all{
+    color: #ee0000;
+    background-color: transparent;
+    position: relative;
+    padding: 0 0 0 25px;
+}
+
+.drive-n-car-service .car-service-text .btn-view-all:hover{
+    color: #9b9b9d;
+}
+
+.drive-n-car-service .car-service-text .btn-view-all:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 9px;
+    height: 13px;
+    background: url(../img/arrow-red.png) no-repeat 0 0;
+}
+
+.drive-n-car-service .orange{
+    background: #ff7100;
+}
+
+
+.icon-label{
+    position: absolute;
+    bottom: 0;
+    left: 312px;
+    width: 108px;
+    height: 115px;
+    box-sizing: border-box;
+    text-align: center;
+    background: #ee0000;
+    padding: 10px;
+    margin: 0;
+}
+
+.icon-label.blue{
+background-color: #171c8f;
+}
+
+.icon-label p{
+    font: normal 16px 'RTA';
+    color: #fff;
+}
+
+.icon-label em {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-transform: translate(-50%, -30%);
+    -moz-transform: translate(-50%, -30%);
+    -o-transform: translate(-50%, -30%);
+    transform: translate(-50%, -30%);
+    -ms-transform: translate(-50%, -30%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+
+.smart-app{
+    display: block;
+    background: #171c8f;
+    padding: 80px 0;
+    margin: 0;
+}
+
+.smart-app h2{
+    display: block;
+    font: bold 46px 'RTA';
+    color: #fff;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+.smart-app .swiper-wrapper .swiper-slide{
+    background: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 227px;
+
+}
+
+.smart-app .swiper-wrapper .swiper-slide .slide-text {
+    float: left;
+    width: 58%;
+}
+
+.smart-app .swiper-wrapper .swiper-slide h3{
+    font: bold 30px 'RTA';
+    color: #373b40;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.smart-app .swiper-wrapper .swiper-slide p{
+    position: relative;
+    font: normal 16px 'RTA';
+    color: #373b40;
+    padding: 0;
+    margin: 0;
+}
+
+.smart-app .swiper-wrapper .swiper-slide img{
+    float: right;
+}
+
+.smart-app .swiper-button-prev, .smart-app .swiper-button-next{
+    width: 24px;
+    height: 37px;
+    margin-top: 35px;
+}
+.smart-app .swiper-button-next, .smart-app .swiper-container-rtl .swiper-button-prev{
+    background: url("../img/bx-arrow.png") no-repeat right 0;
+    right: -40px;
+}
+.smart-app .swiper-button-prev, .smart-app .swiper-container-rtl .swiper-button-next{
+    background: url("../img/bx-arrow.png") no-repeat left 0;
+    left: -40px;
+}
+
+.smart-app .swiper-pagination{
+    width: 100%;
+}
+
+

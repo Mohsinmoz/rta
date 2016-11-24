@@ -1,0 +1,187 @@
+/*Small*/
+.small h3, .small .smart-app h2, .small .smart-app .swiper-wrapper .swiper-slide h3 {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.small h3 span, .small .main-wrapper p, .small .discover-form fieldset label, .small .discover-form fieldset select, .small .pop-services, .small .mobile-services, .small .latest-slider-content,
+.small .latest-form fieldset input, .small .support-services, .small .footer-service ul li span:nth-child(1), .small .service-sticky-nav ul li, .small .breadcrumb-rta li,
+.small .drive-n-car h2, .small .car-services li, .small .drive-n-car-service .car-service-content ul li, .small .drive-n-car-service .car-service-text h3, .small .drive-n-car-service .car-service-text .accordion h4,
+.small .drive-n-car-service .car-service-text .btn-view-all, .small .smart-app .swiper-wrapper .swiper-slide p{
+    font-size: 12px;
+}
+
+.small .slider-content {
+    font-size: 12px;
+}
+
+.small .btn2 {
+    font-size: 12px;
+}
+
+.small .drive-n-car-service .car-service-content ul li{
+    background-position: 10px 4px;
+}
+
+.small .drive-n-car-service .car-service-text .btn-view-all:before{
+    top: 0px;
+}
+
+.small .icon-label{
+    height: 99px;
+}
+
+
+
+/*medium*/
+.medium h3 {
+    font-size: 50px;
+}
+
+.medium h3 span, .medium .discover-form fieldset label, .medium .discover-form fieldset select, .medium .pop-services, .medium .mobile-services, .medium .latest-slider-content,
+.medium .latest-form fieldset input, .medium .support-services, .medium .footer-service ul li span:nth-child(1) {
+    font-size: 21px;
+}
+
+.medium .slider-content {
+    font-size: 21px;
+}
+
+.medium .btn2 {
+    font-size: 21px;
+}
+
+.medium .mobile-app-wrapper > ul > li {
+    height: 130px;
+}
+
+.medium .mobile-app-wrapper ul li a {
+    height: 115px;
+}
+
+.medium .support-wrapper ul li a {
+    height: 112px;
+}
+
+.medium .latest-slider-content{
+    height: 330px;
+    padding: 90px 15px 0 20px;
+}
+
+.medium .service-sticky-nav ul li {
+    font-size: 19px;
+}
+
+.medium .service-sticky {
+    width: 265px;
+    left: -215px;
+}
+
+.medium .service-sticky:hover {
+    left: 0;
+}
+
+.medium .footer-service {
+    width: 540px;
+    margin-top: 20px;
+}
+
+.medium .footer-service ul li a {
+    height: 38px;
+}
+
+.medium .breadcrumb-rta li{
+    font-size: 19px;
+}
+
+.medium .drive-n-car h2, .medium  .drive-n-car-service .car-service-text h3{
+    font-size: 50px;
+}
+
+.medium .car-services li, .medium  .drive-n-car-service .car-service-text .accordion h4, .medium .drive-n-car-service .car-service-content ul li, .medium .btn-view-all{
+    font-size: 19px;
+}
+
+    /*Large*/
+.large h3, .large .drive-n-car-service .car-service-text h3 {
+    font-size: 56px;
+}
+
+.large h3 span, .large .main-wrapper p, .large .discover-form fieldset label, .large .discover-form fieldset select, .large .pop-services, .large .mobile-services, .large .latest-slider-content,
+.large .latest-form fieldset input, .large .support-services, .large .footer-service ul li span:nth-child(1), .large .service-sticky-nav ul li {
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.large .service-sticky {
+    width: 315px;
+    left: -265px;
+}
+
+.large .service-sticky:hover {
+    left: 0;
+}
+
+.large .latest-slider-content {
+    padding: 80px 15px 0 20px;
+    height: 355px;
+}
+
+.large .slider-content {
+    font-size: 26px;
+}
+
+.large .btn2 {
+    font-size: 26px;
+}
+
+.large .slider-content-wrap {
+    height: 230px;
+}
+
+.large .upd-feed-content {
+    float: left;
+    width: 100%;
+    height: 480px;
+    position: relative;
+}
+
+/*.large .footer-service ul li:nth-child(3) a {
+    background: url(../img/ft-ic6.png) no-repeat right center #53565b;
+}*/
+
+.large .support-wrapper ul li a {
+    height: 128px;
+}
+
+.large .footer-service {
+    width: 610px;
+    margin-top: 17px;
+}
+
+.large .footer-service ul li a {
+    height: 41px;
+    padding: 12px 18px;
+}
+
+.large .mobile-app-wrapper > ul > li {
+    height: 147px;
+}
+
+.large .mobile-app-wrapper ul li a {
+    height: 129px;
+}
+
+.large .car-services li, .large .breadcrumb-rta li, .large .drive-n-car-service .car-service-content ul li, .large .drive-n-car-service .car-service-text .accordion h4,
+.large .drive-n-car-service .car-service-text .btn-view-all{
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.large .icon-label{
+    width: 168px;
+}
+
+.large .drive-n-car h2{
+    font-size: 48px;
+}

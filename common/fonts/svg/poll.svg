@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2016 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="support-poll" unicode="&#xe800;" d="M563 784c-241 0-434-195-434-435 0-88 26-170 71-238l-195-196h341v167c0 79 64 143 144 143h147c80 0 144-64 144-143v-109c130 75 217 215 217 376-1 240-195 435-435 435z m0-497c-69 0-124 55-124 124 0 69 55 124 124 124 69 0 124-55 124-124 0-69-56-124-124-124z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

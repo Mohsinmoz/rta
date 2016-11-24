@@ -1,0 +1,86 @@
+.table th .control {
+    position: relative;
+    top: -8px;
+    float: right;
+}
+
+/*.table td:last-child {
+    text-align: right;
+}*/
+
+.table th:last-child .control, .table td:last-child .control {
+    text-align: right;
+    float: right;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 30px 0 !important;
+}
+
+tfoot td {
+    font-size: 18px;
+    color: #ec0000;
+    font-weight: bold;
+}
+
+.total-fines .highlight {
+    color: #515558
+}
+
+.payment-method-select li {
+    padding: 30px 0;
+    margin-right: 40px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.payment-method-select li img {
+    margin-left: 10px;
+    -webkit-box-shadow: 1px 1px 8px 1px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 1px 1px 8px 1px rgba(204, 204, 204, 1);
+    box-shadow: 1px 1px 8px 1px rgba(204, 204, 204, 1);
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+.step4 .form-eligibility {
+    background-color: #ee0000;
+    color: #fff;
+}
+
+.step4 .form-eligibility .row {
+    color: #fff;
+    padding: 30px 60px;
+}
+
+.step4 .form-eligibility .row h2, .step4 .form-eligibility .row p {
+    color: #fff;
+}
+
+.happiness-large-box {
+    text-align: center;
+}
+
+.happiness-large-box h4 {
+    margin: 20px auto;
+    color: #fff;
+    text-align: center;
+}
+
+.step4 .form-eligibility .row h2 {
+    margin: 30px 0;
+}
+
+.step4 .form-eligibility .row p {
+    margin: 0 0 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .table-responsive {
+        border: none
+    }
+}

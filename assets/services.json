@@ -1,0 +1,13 @@
+{
+	"Drivers": ["Driving License services", "Learning Permit servcies", "Book a Driver Test Appointment"],
+	"Fines": [""],
+	"Parking Permits": ["New Parking Permit", "Replace Parking Permit", "Renew Permanent Disabled Parking Permit", "Amend Parking Permit", "Elderly Parking Permit", "Seasonal Parking Card"],
+	"Plates": ["Dubai Logo", "Plate Number services", "Luxury Front Plate", "Distinguished Plates", "Participate in Plate Auction", "Buy Auction Plate", "Extend Plate Reservation", "Trade Plate Numbers"],
+	"Vehicles": ["Vehicle Registration Card", "Vehicle Clearance Certificate", "Vehicle Ownership or Non-Ownership Certificate", "Insurance Refund on Sold Vehicles", "Transfer Registration to Another Emirate", "Export Vehicle to Another Country", "Replace Vehicle Export Certificate", "Vehicle Possesion Certificate", "Vehicle Tourism Clearance Certificate", "Green Points", "Document Validation", "Pay Parking Fees", "Parking Availability", "Salik services"],
+	"Bus, Metro and Tram": ["Using Dubai Bus", "Dubai Metro", "Dubai Tram"],
+	"General": ["Lost and Found", "Fines", "The Disabled", "Green Points"],
+	"Marine": ["Marine Transport services", "Abra Maintenance", "Abra Annual Operation", "Rent Marine Transport Means"],
+	"nol": ["Top Up nol Card", "nol Transaction History", "Personalize nol Card", "View nol Balance", "Report Lost nol Card", "Renew Travel Pass", "Add a nol Card to profile", "Sale of nol Card"],
+	"Taxi": [""]	
+
+}

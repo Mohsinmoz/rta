@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'MetaPro-Light';
+	src: url('fonts/MetaPro-Light.eot');
+	src: url('fonts/MetaPro-Light.eot') format('embedded-opentype'), url('fonts/MetaPro-Light.woff2') format('woff2'), url('fonts/MetaPro-Light.woff') format('woff'), url('fonts/MetaPro-Light.ttf') format('truetype'), url('fonts/MetaPro-Light.svg#MetaPro-Light') format('svg');
+}
+@font-face {
+	font-family: 'MetaPro-Medium';
+	src: url('fonts/MetaPro-Medium.eot');
+	src: url('fonts/MetaPro-Medium.eot') format('embedded-opentype'),  url('fonts/MetaPro-Medium.woff2') format('woff2'),  url('fonts/MetaPro-Medium.woff') format('woff'),  url('fonts/MetaPro-Medium.ttf') format('truetype'),  url('fonts/MetaPro-Medium.svg#MetaPro-Medium') format('svg');
+}
+@font-face {
+	font-family: 'MetaPro-NormalItalic';
+	src: url('fonts/MetaPro-NormalItalic.eot');
+	src: url('fonts/MetaPro-NormalItalic.eot') format('embedded-opentype'),  url('fonts/MetaPro-NormalItalic.woff2') format('woff2'),  url('fonts/MetaPro-NormalItalic.woff') format('woff'),  url('fonts/MetaPro-NormalItalic.ttf') format('truetype'),  url('fonts/MetaPro-NormalItalic.svg#MetaPro-NormalItalic') format('svg');
+}
+@font-face {
+	font-family: 'MetaPro-Book';
+	src: url('fonts/MetaPro-Book.eot');
+	src: url('fonts/MetaPro-Book.eot') format('embedded-opentype'),  url('fonts/MetaPro-Book.woff2') format('woff2'),  url('fonts/MetaPro-Book.woff') format('woff'),  url('fonts/MetaPro-Book.ttf') format('truetype'),  url('fonts/MetaPro-Book.svg#MetaPro-Book') format('svg');
+}
